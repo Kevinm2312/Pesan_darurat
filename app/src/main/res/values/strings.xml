@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikasi</string>
+    <string name="current_location">Lokasi saat ini: Latitude %1$s, Longitude %2$s</string>
+    <string name="device_admin">Device Admin</string>
+    <string-array name="pilihan_pesan">
+        <item>Pilihan Pencurian</item>
+        <item>Pilihan Kebakaran</item>
+        <item>Pilihan Kecelakaan</item>
+        <item>Pilihan Kriminalisasi</item>
+    </string-array>
+</resources>

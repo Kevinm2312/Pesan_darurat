@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_3d.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Latar belakang ketika tombol ditekan -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#80CCCCCC" /> <!-- Latar belakang transparan -->
+                    <corners android:radius="8dp" /> <!-- Sudut yang sedikit dibulatkan -->
+                </shape>
+            </item>
+            <!-- Efek 3D saat tombol ditekan -->
+            <item android:right="1dp" android:bottom="1dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#70FFFFFF" /> <!-- Efek cahaya 3D -->
+                    <corners android:radius="8dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <!-- Latar belakang default saat tombol tidak ditekan -->
+        <shape android:shape="rectangle">
+            <solid android:color="#00CCCCCC" /> <!-- Latar belakang transparan -->
+            <corners android:radius="8dp" /> <!-- Sudut yang sedikit dibulatkan -->
+        </shape>
+    </item>
+</selector>

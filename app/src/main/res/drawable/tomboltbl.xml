@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_with_transparent_bg.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" /> <!-- Latar belakang transparan saat ditekan -->
+                    <corners android:radius="16dp" /> <!-- Sudut tombol yang lebih bulat -->
+                </shape>
+            </item>
+            <item android:right="2dp" android:left="2dp" android:top="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#888888" /> <!-- Warna bayangan saat ditekan -->
+                    <corners android:radius="16dp" /> <!-- Sudut tombol yang lebih bulat -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Warna latar belakang putih saat tidak ditekan -->
+            <corners android:radius="16dp" /> <!-- Sudut tombol yang lebih bulat -->
+        </shape>
+    </item>
+</selector>

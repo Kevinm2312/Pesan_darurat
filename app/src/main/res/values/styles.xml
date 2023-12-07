@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gaya teks putih dengan latar belakang hitam -->
+    <style name="WhiteTextBlackBackground">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+    </style>
+    <style name="buttonstyle1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/orange</item>
+        <item name="colorButtonNormal">@color/green</item>
+    </style>
+</resources>

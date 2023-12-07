@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bar_button_with_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Garis pinggir abu-abu -->
+    <item>
+        <shape>
+            <stroke
+                android:width="2dp"
+                android:color="#CCCCCC" /> <!-- Warna garis abu-abu -->
+            <solid android:color="@android:color/transparent" /> <!-- Latar belakang transparan -->
+        </shape>
+    </item>
+    <!-- Latar belakang tombol -->
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Warna default -->
+             />
+        </shape>
+    </item>
+</layer-list>
